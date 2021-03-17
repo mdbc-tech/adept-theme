@@ -27,17 +27,7 @@
           </nav>
           {% endif %}
 
-          ## Site operators: Please do not remove this paragraph! This attributes back to edX and makes your acknowledgement of edX's trademarks clear.
-          <p class="copyright">${footer['copyright']}
-               % if icp_license_info.get('icp_license'):
-                ${u" | {text}".format(text=icp_license_info.get('text'))}
-                <a href="${icp_license_info.get('icp_license_link', '#')}">
-                    ${u" {icp}".format(icp=icp_license_info.get('icp_license'))}
-                </a>
-              % endif
-          </p>
-
-          {% if DUR_FOOTER_LEGAL_LINKS %}
+{% if DUR_FOOTER_LEGAL_LINKS %}
           <nav class="navbar legal-nav navbar-expand-sm" aria-label="${_('Legal')}">
             <ul class="navbar-nav">
               {% for link in DUR_FOOTER_LEGAL_LINKS %}
@@ -48,6 +38,16 @@
             </ul>
           </nav>
           {% endif %}
+
+          ## Site operators: Please do not remove this paragraph! This attributes back to edX and makes your acknowledgement of edX's trademarks clear.
+          <p class="copyright">${footer['copyright']}
+               % if icp_license_info.get('icp_license'):
+                ${u" | {text}".format(text=icp_license_info.get('text'))}
+                <a href="${icp_license_info.get('icp_license_link', '#')}">
+                    ${u" {icp}".format(icp=icp_license_info.get('icp_license'))}
+                </a>
+              % endif
+          </p>
         </div>
         <div class="col-md-3">
           ## Please leave this link and use one of the logos provided
