@@ -1,0 +1,15 @@
+DUR_WELCOME_MESSAGE: "Inspiring the Exceptional"
+DUR_PRIMARY_COLOR: "#68246D" # purple
+
+# Footer links are dictionaries with a "title" and "url"
+# To remove all links, write:
+# DUR_FOOTER_NAV_LINKS: []
+# DUR_FOOTER_LEGAL_LINKS: []
+DUR_FOOTER_NAV_LINKS:
+  - title: "About"
+    url: "/about"
+  - title: "Contact"
+    url: "/contact"
+DUR_FOOTER_LEGAL_LINKS:
+    - title: "Terms of service"
+      url: "/tos"
