@@ -10,6 +10,10 @@ DUR_FOOTER_NAV_LINKS:
     url: "/about"
   - title: "Contact"
     url: "/contact"
+  - title: "Honor Code"
+    url: "/honor"
 DUR_FOOTER_LEGAL_LINKS:
     - title: "Terms of service"
       url: "/tos"
+    - title: "privacy statement"
+      url: "/privacy"
