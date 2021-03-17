@@ -13,6 +13,6 @@ DUR_FOOTER_NAV_LINKS:
   - title: "Honor Code"
     url: "/honor"
   - title: "Terms of service"
-     url: "/tos"
+    url: "/tos"
   - title: "privacy statement"
-     url: "/privacy"
+    url: "/privacy"
