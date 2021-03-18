@@ -10,6 +10,10 @@
 	background: url('/static/adept/images/durham.jpg');
 	background-size: cover;
 	background-position: 50%;
+    align-content: center;
+    align-self: center;
+    align-items: center;
+    justify-self: center;
 
 	.outer-wrapper {
 		padding-top: 150px;
@@ -41,7 +45,7 @@
     color: #68246D;
     text-shadow: darken($color: #000000, $amount: 0);
     justify-content: center space-between;
-    background-color: rgb(206, 235, 235);
+    background-color: rgb(253, 253, 253);
     
 }
 .courses .courses-listing-item {
